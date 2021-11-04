@@ -7,6 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperaturaApp", "Temperatu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{D51FF3A5-FE96-4BBE-ADCA-4A3017625C7D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestructura", "Infraestructura\Infraestructura.csproj", "{75A00248-A6D4-4C9F-ABA4-A4B402C9D560}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8796CD3B-CA46-402F-B571-16118423768F}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +28,10 @@ Global
 		{D51FF3A5-FE96-4BBE-ADCA-4A3017625C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D51FF3A5-FE96-4BBE-ADCA-4A3017625C7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D51FF3A5-FE96-4BBE-ADCA-4A3017625C7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75A00248-A6D4-4C9F-ABA4-A4B402C9D560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75A00248-A6D4-4C9F-ABA4-A4B402C9D560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75A00248-A6D4-4C9F-ABA4-A4B402C9D560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75A00248-A6D4-4C9F-ABA4-A4B402C9D560}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,9 +9,9 @@ namespace Domain
 {
     public class Registro
     {
-        public EscalaTemperatura escalaTemperatura { get; set; }
-        public decimal GradosCelcius { get; set; }
-        public decimal Kelvin { get; set; }
-        public decimal GradosFahrenheit { get; set; }
+        public EscalaTemperatura EscalaInicial { get; set; }
+        public EscalaTemperatura EscalaFinal { get; set; }
+        public decimal GradosIniciales { get; set; }
+        public decimal GradosFinales { get; set; }
     }
 }
