@@ -37,8 +37,6 @@ namespace TemperaturaApp
             this.nudGrados = new System.Windows.Forms.NumericUpDown();
             this.label1 = new System.Windows.Forms.Label();
             this.btnConvertir = new System.Windows.Forms.Button();
-            this.btnHistorial = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudGrados)).BeginInit();
             this.SuspendLayout();
@@ -70,7 +68,6 @@ namespace TemperaturaApp
             this.cmbEFinal.Name = "cmbEFinal";
             this.cmbEFinal.Size = new System.Drawing.Size(182, 21);
             this.cmbEFinal.TabIndex = 6;
-//            this.cmbEFinal.MouseClick += new System.Windows.Forms.MouseEventHandler(this.cmbEFinal_MouseClick);
             // 
             // label3
             // 
@@ -130,32 +127,11 @@ namespace TemperaturaApp
             this.btnConvertir.UseVisualStyleBackColor = true;
             this.btnConvertir.Click += new System.EventHandler(this.btnConvertir_Click);
             // 
-            // btnHistorial
-            // 
-            this.btnHistorial.Location = new System.Drawing.Point(23, 202);
-            this.btnHistorial.Name = "btnHistorial";
-            this.btnHistorial.Size = new System.Drawing.Size(160, 23);
-            this.btnHistorial.TabIndex = 2;
-            this.btnHistorial.Text = "Mostrar historial de conversion";
-            this.btnHistorial.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(189, 203);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Prueba";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(361, 238);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.btnHistorial);
             this.Controls.Add(this.btnConvertir);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
@@ -176,9 +152,7 @@ namespace TemperaturaApp
         private System.Windows.Forms.NumericUpDown nudGrados;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnConvertir;
-        private System.Windows.Forms.Button btnHistorial;
         private System.Windows.Forms.ComboBox cmbEFinal;
-        private System.Windows.Forms.Button button1;
     }
 }
 

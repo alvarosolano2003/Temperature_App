@@ -67,7 +67,7 @@ namespace TemperaturaApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            List<Registro> arr = obj.GetAll(a => a.GetType == obj.);
+            //List<Registro> arr = obj.GetAll(a => a.GetType == obj.);
             MessageBox.Show($"{cmbEFinal.SelectedIndex}");
         }
 
